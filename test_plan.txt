@@ -1,0 +1,42 @@
+IntegerList Test Cases:
+UnsortedList<int>L1
+1) L1.IsFull() = 1
+2) L1.GetLength() = 50
+3) L1.DeleteItem(51) = Exception: Element is not found in the list
+4) L1.ResetList()
+5) L1.GetNextItem() = 32767
+
+StudentList Test Cases:
+UnsortedList<Student>Sl(20)
+1) S1.IsFull() = 0
+2) S1.GetLength() = 20
+3) S1.GetNextItem() = 0002 Becky Nursing
+4) S1.ResetList()
+5) S1.MakeEmpty()
+6) S1.GetLength() = 0
+7) S1.PutItem(Roger)
+8) S1.GetItem(Roger, found) = 0021 Roger German
+9) S1.DeleteItem(Roger)
+10) S1.GetItem(Roger, found) = 0
+
+Student List:
+0001 Shaun Business 
+0002 Becky Nursing 
+0003 Conner Psychology 
+0004 Andrew Biology 
+0005 Brian Engineering 
+0006 Kayla Pharmacy 
+0007 Jack Math 
+0008 Lindsey Teaching 
+0009 Samantha Theatre 
+0010 Trey Finance 
+0011 Mikey Forestry 
+0012 Rebecca Chemistry 
+0013 Nick Physics 
+0014 Jacki Journalism 
+0015 Trevor History 
+0016 Sarah Tourism 
+0017 Brooke Design 
+0018 Chris Landscape 
+0019 Lauren Latin 
+0020 Amber Management 
